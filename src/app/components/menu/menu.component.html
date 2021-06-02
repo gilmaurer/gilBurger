@@ -1,0 +1,17 @@
+  <h3>Total Price: {{getTotalPrice()}} $</h3>
+ <div *ngFor="let ingredient of getIngrids()"  class="grid-container">
+     <div class="ingridient-name">{{ingredient.name}} <br> {{ingredient.price}}$</div>
+     <div class="ingridient-img">
+        <img class="img" src="{{ingredient.img }}" alt="">
+     </div>
+     <div class="ingridient-add"><button class="btn btn-success"(click)=" addIngridient(ingredient.name,
+         ingredient.price)" [disabled]="ingredient.count === 5">+</button></div>
+     <div class="ingridient-remove"><button class="btn btn-danger"
+         (click)="removeIngridient(ingredient.name, ingredient.price * -1)"
+         [disabled]="ingredient.count === 0">-</button>
+        </div>
+ </div>
+
+
+
+

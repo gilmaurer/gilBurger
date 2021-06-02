@@ -1,0 +1,39 @@
+.lettuce {
+  width: 65%;
+  height: 7%;
+  background: linear-gradient(#228c1d, #91ce50);
+  margin: auto;
+  border-radius: 20px;
+}
+
+.meat {
+  width: 58%;
+  height: 8%;
+  background: linear-gradient(#7f3608, #702e05);
+  border-radius: 15px;
+  margin: auto;
+}
+
+.onion {
+  width: 65%;
+  height: 4.5%;
+  background: linear-gradient(#8804f4, #c8d6d1);
+  border-radius: 20px;
+  margin: auto;
+}
+
+.tomato {
+  width: 65%;
+  height: 4.5%;
+  background: linear-gradient(#c21010, #aa3e0d);
+  border-radius: 20px;
+  margin: auto;
+}
+
+.cheese {
+  width: 65%;
+  height: 0.5%;
+  background: linear-gradient(#f4d004, #d6bb22);
+  border-radius: 20px;
+  margin: auto;
+}

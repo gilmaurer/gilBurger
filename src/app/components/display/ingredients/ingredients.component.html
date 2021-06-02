@@ -1,0 +1,6 @@
+<div class="display">
+    <div *ngFor="let ingrid of getIngridents()">
+      <div *ngFor="let i of getQuantity(ingrid.count)">
+        <div [ngClass]="getClassName(ingrid.name)">&nbsp;</div>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+.grid-container {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 30% 30% 20% 20%;
+  align-content: center;
+  border: 2px solid black;
+  padding: 5px;
+  box-sizing: border-box;
+  background: linear-gradient(#f0e9e9, #c1d3d2);
+  position: relative;
+}
+
+
+.ingridient-name {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-weight: 200;
+}
+
+
+.grid-container > div {
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+
+
+
+
+/* .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: pink;
+  margin: 0;
+}
+
+
+.ingrid {
+  text-align: center;
+}
+
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 3px solid green;
+  background-color: greenyellow;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+   align-items: center;
+} */
+
+
